@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeevAtend.Api", "FeevAtend.Api\FeevAtend.Api.csproj", "{72A13236-C22A-3B50-D9D6-4C14D4E48B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeevAtend.Domain", "FeevAtend.Domain\FeevAtend.Domain.csproj", "{B982449D-9E32-FB86-0164-FC1C7A810206}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A13236-C22A-3B50-D9D6-4C14D4E48B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A13236-C22A-3B50-D9D6-4C14D4E48B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A13236-C22A-3B50-D9D6-4C14D4E48B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A13236-C22A-3B50-D9D6-4C14D4E48B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B982449D-9E32-FB86-0164-FC1C7A810206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B982449D-9E32-FB86-0164-FC1C7A810206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B982449D-9E32-FB86-0164-FC1C7A810206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B982449D-9E32-FB86-0164-FC1C7A810206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B2C935-6201-4B06-94B1-478A0291D986}
+	EndGlobalSection
+EndGlobal
