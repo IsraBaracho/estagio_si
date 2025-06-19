@@ -20,7 +20,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
-    public async Task<ActionResult<LoginResponse>> Login([FromBody] LoginRequest request)
+    public async Task<ActionResult<LoginResponse>> Login([FromBody] FeevAtend.Application.DTOs.LoginRequest request)
     {
         var user = await _userService.GetUserByEmail(request.Email);
         if (user == null || !_userService.VerifyPassword(request.Password, user.PasswordHash))
@@ -33,7 +33,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("register")]
-    public async Task<ActionResult<UserDto>> Register([FromBody] RegisterRequest request)
+    public async Task<ActionResult<UserDto>> Register([FromBody] FeevAtend.Application.DTOs.RegisterRequest request)
     {
         var user = await _userService.CreateUser(request);
         return Ok(new UserDto
@@ -46,29 +46,3 @@ public class AuthController : ControllerBase
     }
 }
 
-public class LoginRequest
-{
-    public string Email { get; set; }
-    public string Password { get; set; }
-}
-
-public class RegisterRequest
-{
-    public string Name { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
-    public UserRole Role { get; set; }
-}
-
-public class LoginResponse
-{
-    public string Token { get; set; }
-}
-
-public class UserDto
-{
-    public Guid Id { get; set; }
-    public string Name { get; set; }
-    public string Email { get; set; }
-    public UserRole Role { get; set; }
-}

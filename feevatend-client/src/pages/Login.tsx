@@ -12,7 +12,7 @@ export default function Login() {
     setError("");
     try {
       // Troque a URL abaixo pelo endpoint real da sua API
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("http://localhost:5200/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

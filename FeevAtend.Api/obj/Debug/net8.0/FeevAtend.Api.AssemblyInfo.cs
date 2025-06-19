@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FeevAtend.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12c9a85b415f3f1be64c4197e3414a0c0fa161fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b5ca5014a508a7b7ad67fb197a7459cfd58a865")]
 [assembly: System.Reflection.AssemblyProductAttribute("FeevAtend.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FeevAtend.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
