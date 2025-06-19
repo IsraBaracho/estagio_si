@@ -1,15 +1,20 @@
+using System;
+using System.Threading.Tasks;
+using FeevAtend.Domain.Entities;
+using FeevAtend.Domain.Repositories;
+using FeevAtend.Domain.Services;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.IdentityModel.Tokens;
-using FeevAtend.Domain.Entities;
 
-namespace FeevAtend.Application.Services;
+namespace FeevAtend.Application.Services
+{
 
 public interface IAuthService
 {
     string GenerateJwtToken(User user);
-    User ValidateToken(string token);
+    Task<User> ValidateToken(string token);
 }
 
 public class AuthService : IAuthService
@@ -49,7 +54,7 @@ public class AuthService : IAuthService
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 
-    public User ValidateToken(string token)
+    public async Task<User> ValidateToken(string token)
     {
         try
         {
@@ -57,11 +62,12 @@ public class AuthService : IAuthService
             var tokenS = handler.ReadJwtToken(token);
 
             var userId = tokenS.Claims.First(c => c.Type == ClaimTypes.NameIdentifier).Value;
-            return _userRepository.GetUserById(Guid.Parse(userId));
+            return await _userRepository.GetUserById(Guid.Parse(userId));
         }
         catch
         {
             return null;
         }
     }
+}
 }

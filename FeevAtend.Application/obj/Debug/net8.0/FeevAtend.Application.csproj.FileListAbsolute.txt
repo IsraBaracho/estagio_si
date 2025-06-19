@@ -3,3 +3,14 @@ D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.A
 D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.AssemblyInfo.cs
 D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.csproj.CoreCompileInputs.cache
 D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.sourcelink.json
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.csproj.AssemblyReference.cache
+D:\repos\estágio\FeevAtend.Application\bin\Debug\net8.0\FeevAtend.Application.deps.json
+D:\repos\estágio\FeevAtend.Application\bin\Debug\net8.0\FeevAtend.Application.dll
+D:\repos\estágio\FeevAtend.Application\bin\Debug\net8.0\FeevAtend.Application.pdb
+D:\repos\estágio\FeevAtend.Application\bin\Debug\net8.0\FeevAtend.Domain.dll
+D:\repos\estágio\FeevAtend.Application\bin\Debug\net8.0\FeevAtend.Domain.pdb
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAten.E644192D.Up2Date
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.dll
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\refint\FeevAtend.Application.dll
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.pdb
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\ref\FeevAtend.Application.dll

@@ -3,3 +3,16 @@ D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastruc
 D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.AssemblyInfo.cs
 D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.csproj.CoreCompileInputs.cache
 D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.sourcelink.json
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.csproj.AssemblyReference.cache
+D:\repos\estágio\FeevAtend.Infrastructure\bin\Debug\net8.0\FeevAtend.Infrastructure.deps.json
+D:\repos\estágio\FeevAtend.Infrastructure\bin\Debug\net8.0\FeevAtend.Infrastructure.runtimeconfig.json
+D:\repos\estágio\FeevAtend.Infrastructure\bin\Debug\net8.0\FeevAtend.Infrastructure.dll
+D:\repos\estágio\FeevAtend.Infrastructure\bin\Debug\net8.0\FeevAtend.Infrastructure.pdb
+D:\repos\estágio\FeevAtend.Infrastructure\bin\Debug\net8.0\FeevAtend.Domain.dll
+D:\repos\estágio\FeevAtend.Infrastructure\bin\Debug\net8.0\FeevAtend.Domain.pdb
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAten.2D35BDFF.Up2Date
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.dll
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\refint\FeevAtend.Infrastructure.dll
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.pdb
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\FeevAtend.Infrastructure.genruntimeconfig.cache
+D:\repos\estágio\FeevAtend.Infrastructure\obj\Debug\net8.0\ref\FeevAtend.Infrastructure.dll

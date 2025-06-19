@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FeevAtend.Domain.Entities;
-using FeevAtend.Api.Models;
+using FeevAtend.Domain.Repositories;
+using FeevAtend.Application.DTOs;
 
-namespace FeevAtend.Application.Services;
+namespace FeevAtend.Application.Services
+{
 
 public interface IAppointmentService
 {
@@ -100,4 +102,5 @@ public class AppointmentService : IAppointmentService
         var averageWaitTime = lastAppointment.WaitingTime;
         return averageWaitTime * waitingAppointments.Count();
     }
+}
 }

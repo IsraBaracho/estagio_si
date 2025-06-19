@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "YguXeR3sx8M=",
+  "dgSpecHash": "RRkWJjbkvUs=",
   "success": true,
   "projectFilePath": "D:\\repos\\estágio\\FeevAtend.Application\\FeevAtend.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\israb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\israb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\israb\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.12.1\\microsoft.identitymodel.abstractions.8.12.1.nupkg.sha512",
+    "C:\\Users\\israb\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.12.1\\microsoft.identitymodel.jsonwebtokens.8.12.1.nupkg.sha512",
+    "C:\\Users\\israb\\.nuget\\packages\\microsoft.identitymodel.logging\\8.12.1\\microsoft.identitymodel.logging.8.12.1.nupkg.sha512",
+    "C:\\Users\\israb\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.12.1\\microsoft.identitymodel.tokens.8.12.1.nupkg.sha512",
+    "C:\\Users\\israb\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.12.1\\system.identitymodel.tokens.jwt.8.12.1.nupkg.sha512"
+  ],
   "logs": []
 }

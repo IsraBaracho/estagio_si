@@ -1,7 +1,8 @@
 using System;
 using FeevAtend.Domain.Entities;
 
-namespace FeevAtend.Api.Models;
+namespace FeevAtend.Application.DTOs
+{
 
 public class AppointmentDto
 {
@@ -27,4 +28,6 @@ public class UpdateAppointmentStatusDto
 {
     public AppointmentStatus Status { get; set; }
     public string AttendantId { get; set; }
+}
+
 }

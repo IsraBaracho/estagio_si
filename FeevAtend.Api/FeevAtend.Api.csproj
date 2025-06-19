@@ -17,4 +17,7 @@
     <ProjectReference Include="..\FeevAtend.Infrastructure\FeevAtend.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FeevAtend.Application\FeevAtend.Application.csproj" />
+  </ItemGroup>
 </Project>

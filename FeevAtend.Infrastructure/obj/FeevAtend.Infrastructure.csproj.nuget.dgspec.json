@@ -4,14 +4,14 @@
     "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj": {
+    "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj",
-        "projectName": "FeevAtend.Infrastructure",
-        "projectPath": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj",
+        "projectUniqueName": "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj",
+        "projectName": "FeevAtend.Domain",
+        "projectPath": "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj",
         "packagesPath": "C:\\Users\\israb\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\obj\\",
+        "outputPath": "D:\\repos\\estágio\\FeevAtend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\israb\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,84 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj",
+        "projectName": "FeevAtend.Infrastructure",
+        "projectPath": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\israb\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\israb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj": {
+                "projectPath": "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

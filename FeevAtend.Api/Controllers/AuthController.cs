@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using FeevAtend.Api.Models;
+using FeevAtend.Application.DTOs;
 using FeevAtend.Domain.Entities;
 using FeevAtend.Application.Services;
 

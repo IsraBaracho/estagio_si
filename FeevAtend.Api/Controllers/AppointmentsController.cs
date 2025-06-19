@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using FeevAtend.Api.Models;
+using FeevAtend.Application.DTOs;
+using FeevAtend.Application.Services;
 using FeevAtend.Domain.Entities;
 
 namespace FeevAtend.Api.Controllers;

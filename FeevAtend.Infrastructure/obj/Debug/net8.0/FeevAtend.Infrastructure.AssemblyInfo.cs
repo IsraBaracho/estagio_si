@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FeevAtend.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abb1518943df159f3746359f168939aa9fcea391")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12c9a85b415f3f1be64c4197e3414a0c0fa161fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FeevAtend.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FeevAtend.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
