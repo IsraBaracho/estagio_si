@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FeevAtend.Domain\FeevAtend.Domain.csproj" />
+    <ProjectReference Include="..\FeevAtend.Application\FeevAtend.Application.csproj" />
+    <ProjectReference Include="..\FeevAtend.Infrastructure\FeevAtend.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

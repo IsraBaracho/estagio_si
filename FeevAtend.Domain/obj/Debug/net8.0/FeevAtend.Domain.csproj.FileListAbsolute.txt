@@ -1,0 +1,12 @@
+D:\repos\estágio\FeevAtend.Domain\bin\Debug\net8.0\FeevAtend.Domain.deps.json
+D:\repos\estágio\FeevAtend.Domain\bin\Debug\net8.0\FeevAtend.Domain.dll
+D:\repos\estágio\FeevAtend.Domain\bin\Debug\net8.0\FeevAtend.Domain.pdb
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.AssemblyInfoInputs.cache
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.AssemblyInfo.cs
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.csproj.CoreCompileInputs.cache
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.sourcelink.json
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.dll
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\refint\FeevAtend.Domain.dll
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\FeevAtend.Domain.pdb
+D:\repos\estágio\FeevAtend.Domain\obj\Debug\net8.0\ref\FeevAtend.Domain.dll

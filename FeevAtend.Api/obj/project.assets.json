@@ -107,6 +107,36 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FeevAtend.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FeevAtend.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FeevAtend.Application.dll": {}
+        }
+      },
+      "FeevAtend.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FeevAtend.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FeevAtend.Domain.dll": {}
+        }
+      },
+      "FeevAtend.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FeevAtend.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FeevAtend.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -473,10 +503,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FeevAtend.Application/1.0.0": {
+      "type": "project",
+      "path": "../FeevAtend.Application/FeevAtend.Application.csproj",
+      "msbuildProject": "../FeevAtend.Application/FeevAtend.Application.csproj"
+    },
+    "FeevAtend.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FeevAtend.Domain/FeevAtend.Domain.csproj",
+      "msbuildProject": "../FeevAtend.Domain/FeevAtend.Domain.csproj"
+    },
+    "FeevAtend.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FeevAtend.Infrastructure/FeevAtend.Infrastructure.csproj",
+      "msbuildProject": "../FeevAtend.Infrastructure/FeevAtend.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FeevAtend.Application >= 1.0.0",
+      "FeevAtend.Domain >= 1.0.0",
+      "FeevAtend.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.15",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -505,7 +553,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\repos\\estágio\\FeevAtend.Application\\FeevAtend.Application.csproj": {
+              "projectPath": "D:\\repos\\estágio\\FeevAtend.Application\\FeevAtend.Application.csproj"
+            },
+            "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj": {
+              "projectPath": "D:\\repos\\estágio\\FeevAtend.Domain\\FeevAtend.Domain.csproj"
+            },
+            "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj": {
+              "projectPath": "D:\\repos\\estágio\\FeevAtend.Infrastructure\\FeevAtend.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

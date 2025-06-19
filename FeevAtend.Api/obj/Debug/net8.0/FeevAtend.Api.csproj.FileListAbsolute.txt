@@ -1,0 +1,8 @@
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.csproj.AssemblyReference.cache
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.AssemblyInfoInputs.cache
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.AssemblyInfo.cs
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.csproj.CoreCompileInputs.cache
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\estágio\FeevAtend.Api\obj\Debug\net8.0\FeevAtend.Api.sourcelink.json

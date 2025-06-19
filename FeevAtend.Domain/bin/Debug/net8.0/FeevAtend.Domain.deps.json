@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FeevAtend.Domain/1.0.0": {
+        "runtime": {
+          "FeevAtend.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FeevAtend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

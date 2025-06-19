@@ -1,0 +1,5 @@
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.AssemblyInfoInputs.cache
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.AssemblyInfo.cs
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.csproj.CoreCompileInputs.cache
+D:\repos\estágio\FeevAtend.Application\obj\Debug\net8.0\FeevAtend.Application.sourcelink.json
